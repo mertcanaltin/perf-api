@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { AnalyticsService } from './analytics.service';
-import { CreateAnalyticDto } from './dto/create-Analytic.dto';
+import { CreateAnalyticDto } from './dto/create-analytic.dto';
 import { UpdateAnalyticDto } from './dto/update-analytic.dto';
 
 @Controller('Analytics')
