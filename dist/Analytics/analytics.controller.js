@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AnalyticsController = void 0;
 const common_1 = require("@nestjs/common");
 const analytics_service_1 = require("./analytics.service");
-const create_Analytic_dto_1 = require("./dto/create-Analytic.dto");
+const create_analytic_dto_1 = require("./dto/create-analytic.dto");
 const update_analytic_dto_1 = require("./dto/update-analytic.dto");
 let AnalyticsController = class AnalyticsController {
     constructor(AnalyticsService) {
@@ -41,7 +41,7 @@ __decorate([
     common_1.Post(),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [create_Analytic_dto_1.CreateAnalyticDto]),
+    __metadata("design:paramtypes", [create_analytic_dto_1.CreateAnalyticDto]),
     __metadata("design:returntype", void 0)
 ], AnalyticsController.prototype, "create", null);
 __decorate([

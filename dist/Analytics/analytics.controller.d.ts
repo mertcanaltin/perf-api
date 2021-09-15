@@ -1,5 +1,5 @@
 import { AnalyticsService } from './analytics.service';
-import { CreateAnalyticDto } from './dto/create-Analytic.dto';
+import { CreateAnalyticDto } from './dto/create-analytic.dto';
 import { UpdateAnalyticDto } from './dto/update-analytic.dto';
 export declare class AnalyticsController {
     private readonly AnalyticsService;
