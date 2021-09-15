@@ -1587,13 +1587,13 @@
         "affectsGlobalScope": false
       },
       "../src/analytics/dto/update-analytic.dto.ts": {
-        "version": "b3c2aa1ed737119830727c18cbe9e541bf27e1f4d368d28a0c924f18c7e9e3b6",
-        "signature": "433be225ab1cc25bbbf5a52474486db56e392e5156ea7387e49510b859ab192d",
+        "version": "18551394e9cd4bf3a9d985c33a6bdb46066ca92a716ab8fd88749b5159d5923b",
+        "signature": "13664b64a86571ee3d2ab6f039cd683b716f4bcb315227d31da77271f9a66425",
         "affectsGlobalScope": false
       },
       "../src/analytics/analytics.service.ts": {
-        "version": "df316a98e75e633f569b1f32af97108c8e1a0409a3f01911f940233a61baea28",
-        "signature": "8baca10c5169f858cb8923def1751b26f302b3ca7c23fa2e94d9052dc4902d7f",
+        "version": "02d4262eaa6603de2d5f29fb95d6a03a708dc3d71d3235821cff748ba3d21558",
+        "signature": "e81c907601c6e832d19730b04bcf61a500cf0ececa2ec25e038e920c8df6b777",
         "affectsGlobalScope": false
       },
       "../src/analytics/analytics.controller.ts": {
@@ -1607,7 +1607,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "3c71777212427864f8408f4047a1eeb601b8cc3ba0f2d702f679aa22be0970da",
+        "version": "bf4b0b9155b98023a2b14ffbfc163c1e40153f3aabd0adcf72d59967261fb308",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },

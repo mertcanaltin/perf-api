@@ -11,12 +11,12 @@ const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
 const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
-const Analytics_module_1 = require("./Analytics/Analytics.module");
+const analytics_module_1 = require("./analytics/analytics.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [Analytics_module_1.AnalyticsModule, mongoose_1.MongooseModule.forRoot('mongodb://localhost/nest')],
+        imports: [analytics_module_1.AnalyticsModule, mongoose_1.MongooseModule.forRoot('mongodb+srv://mert:Mert123456@perf-analytics.l7ma2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })
